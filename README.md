@@ -19,7 +19,7 @@ export CLASSPATH=$CLASSPATH:/Library/Java/Extensions/json-simple-1.1.1.jar)
 - Navigate to folder and select json-simple-1.1.1.jar
 - Run the server
 ```
-Right-click on Main.java and select "run Main.main()"
+Right-click on SparkAPI.java and select "run SparkAPI.main()"
 ```
 
 ## Option 2: Installing via homebrew
