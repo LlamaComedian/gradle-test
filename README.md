@@ -8,7 +8,7 @@ This code was tested in IntelliJ on a Mac, to get it working:
 - Install the latest version of Java
 - Download json-simple-1.1.1.jar (https://code.google.com/p/json-simple/downloads/list)
 - Copy to /Library/Java/Extensions/json-simple-1.1.1.jar
-- Add to CLASSPATH (this step might not be necessary)
+- You *may* need to add to CLASSPATH:
 ```
 export CLASSPATH=$CLASSPATH:/Library/Java/Extensions/json-simple-1.1.1.jar)
 ```
@@ -17,6 +17,10 @@ export CLASSPATH=$CLASSPATH:/Library/Java/Extensions/json-simple-1.1.1.jar)
 - Click + button at the bottom of the dependencies window
 - Select “1 JARs or Directories”
 - Navigate to folder and select json-simple-1.1.1.jar
+- You *may* need to refresh Gradle's dependencies:
+```
+view - tool windows - gradle -> click the refresh button
+```
 - Run the server
 ```
 Right-click on SparkAPI.java and select "run SparkAPI.main()"
