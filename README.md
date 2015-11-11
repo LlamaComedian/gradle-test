@@ -6,7 +6,7 @@ posts.
 This code was tested in IntelliJ on a Mac, to get it working:
 
 - Install the latest version of Java
-- Download json-simple-1.1.1.jar (https://code.google.com/p/json-simple/)
+- Download json-simple-1.1.1.jar (https://code.google.com/p/json-simple/downloads/list)
 - Copy to /Library/Java/Extensions/json-simple-1.1.1.jar
 - Add to CLASSPATH (this step might not be necessary)
 ```
